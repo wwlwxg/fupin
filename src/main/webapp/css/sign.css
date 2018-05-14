@@ -1,0 +1,77 @@
+<style>
+img.picker
+{
+    height:16px;
+    width:16px;
+    margin-left:-19px;
+    vertical-align:middle; 
+    padding-bottom: 2px;
+    cursor:pointer;
+    border:none;
+}
+
+.tbDetail {
+	width: 100%;
+	border:1px solid black;
+	border-collapse:collapse;
+	text-align: center;
+	font-size: big;
+	font-weight: 500;
+	padding: 0px;
+}
+
+.tbDetail td {
+	min-height: 2rem;
+	border:1px solid black;
+	empty-cells:show;
+	padding: 5px;
+	margin: 0px;
+}
+
+.tbDetail input {
+	border: 0px;
+	border-bottom: #000000 1px solid;
+}
+
+.tbDetail input[type='submit'],input[type='button'] {
+	border: 1px solid #0a7eaf;
+	height: 2rem;
+	vertical-align: middle;
+	line-height: 2rem;
+	width: 5rem;
+	background-color: Highlight;
+}
+
+.tbDetail input[type='submit']:hover,input[type='button']:hover {
+	background-color: #eee;
+	color: black;
+}
+
+ .tbDetail input[type='text'] {
+	width: 5rem;
+}
+
+ .tbDetail select {
+	width: 18rem;
+}
+
+input[type='text'], select {
+	width: 6rem;
+}
+
+.effect_touch_big{
+	background-color: yellow;
+}
+.tr-head {
+	background-color: green;
+}
+table{
+	border-collapse:collapse;
+	border:1px solid black;
+}
+td {
+	empty-cells:show;
+	border:1px solid black;
+}
+
+</style> 
