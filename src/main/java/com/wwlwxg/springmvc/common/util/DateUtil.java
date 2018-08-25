@@ -15,6 +15,14 @@ public class DateUtil {
     
 	private DateUtil() {
 	}
+	
+	public static Date date2date(java.sql.Date date) {
+		return new Date(date.getTime());
+	}
+	
+	public static java.sql.Date date2date(Date date) {
+		return new java.sql.Date(date.getTime());
+	}
 
 	public static Date getNow() {
 		return Calendar.getInstance().getTime();
